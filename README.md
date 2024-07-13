@@ -1,19 +1,19 @@
-# Mixout
+# Mix
 
-Explicit output for Mixin modules.
+Audio signal mixing. Basic module with simple OP Amp design.
 
 ## Size
 
-6hp on a 1u rack.
+30hp on a 1u rack.
 
 ## Inputs
 
-Uses the same back bus arrangement as Mixin, specifically using pins 1 and 2 of an 8 pin box header.
+4x patch inputs and 4x potentiometers for adjusting the apparent effect of a patch input
 
 ## Outputs
 
 Single 1/4" phone jack output.
-5 LED array indicating output level.
+4 LED array indicating output level.
 
 ## Notes
 
