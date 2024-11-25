@@ -331,6 +331,73 @@
         )
       )
     )
+    (symbol "Device:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "D" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_0_1"
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1331,17 +1398,11 @@
   (junction (at 149.86 182.88) (diameter 0) (color 0 0 0 0)
     (uuid 234c78b1-5580-4468-af0b-cbc4f843407e)
   )
-  (junction (at 132.08 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid 296f49b3-f0b4-4715-b7d8-054d33d40b1d)
-  )
   (junction (at 90.17 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 2e13f473-9a36-4fd5-b337-d5836e3312b2)
   )
   (junction (at 90.17 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 324dd734-8e5e-4d87-944e-0225b88910d7)
-  )
-  (junction (at 116.84 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid 33b8d60f-480d-4cc8-be81-bc10f0bcc946)
   )
   (junction (at 191.77 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 44f4b951-2626-4c83-9c80-3f46d57735a2)
@@ -1373,6 +1434,9 @@
   (junction (at 35.56 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 9972ebe0-061c-4905-8f24-76a4618de5a5)
   )
+  (junction (at 203.2 96.52) (diameter 0) (color 0 0 0 0)
+    (uuid 99fe059b-fe74-4ea2-85fb-c8c841769f0b)
+  )
   (junction (at 191.77 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 9e2f6032-7835-4c14-9a50-140aa069a974)
   )
@@ -1391,14 +1455,26 @@
   (junction (at 132.08 58.42) (diameter 0) (color 0 0 0 0)
     (uuid b2acdbfb-0502-4c53-adcc-d7b847ecb492)
   )
+  (junction (at 208.28 107.95) (diameter 0) (color 0 0 0 0)
+    (uuid b2cd98ce-678d-4ba0-8bd6-1db8f62dccde)
+  )
+  (junction (at 132.08 48.26) (diameter 0) (color 0 0 0 0)
+    (uuid b55fce9f-3390-4b5a-9c5f-4bdb23cbc9c7)
+  )
   (junction (at 116.84 55.88) (diameter 0) (color 0 0 0 0)
     (uuid b6016d7e-f8a5-42b0-87a1-02e9225711bd)
   )
   (junction (at 205.74 158.75) (diameter 0) (color 0 0 0 0)
     (uuid b92315ac-f4be-41dd-b667-67cf417f5c89)
   )
+  (junction (at 109.22 45.72) (diameter 0) (color 0 0 0 0)
+    (uuid c3806ecc-33e9-4e11-b5cb-e9b7eacc1ace)
+  )
   (junction (at 205.74 143.51) (diameter 0) (color 0 0 0 0)
     (uuid c3e48470-8bae-4616-935f-391f8792bf6e)
+  )
+  (junction (at 203.2 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid d06aa669-9c58-4413-b0a2-bd982bb82ee8)
   )
   (junction (at 227.33 158.75) (diameter 0) (color 0 0 0 0)
     (uuid da6962ef-ad77-4e74-a846-ffc72c3ff9ae)
@@ -1418,7 +1494,7 @@
   (no_connect (at 30.48 45.72) (uuid 3db5a338-e609-4fce-91c9-6cdc823994eb))
   (no_connect (at 30.48 62.23) (uuid ab3a13ec-e51d-4fca-9e37-2b9432924457))
 
-  (wire (pts (xy 203.2 85.09) (xy 203.2 100.33))
+  (wire (pts (xy 203.2 85.09) (xy 203.2 96.52))
     (stroke (width 0) (type default))
     (uuid 01b0caee-bbab-49d2-8836-a04d4adeef28)
   )
@@ -1457,6 +1533,10 @@
   (wire (pts (xy 161.29 176.53) (xy 161.29 177.8))
     (stroke (width 0) (type default))
     (uuid 1d18fe38-9e92-4cee-b090-3b17db841f03)
+  )
+  (wire (pts (xy 214.63 100.33) (xy 214.63 96.52))
+    (stroke (width 0) (type default))
+    (uuid 213ea0fa-f9d2-4fbe-aef3-3341aaf8ece8)
   )
   (wire (pts (xy 133.35 166.37) (xy 135.89 166.37))
     (stroke (width 0) (type default))
@@ -1538,6 +1618,10 @@
     (stroke (width 0) (type default))
     (uuid 5b9348b6-2c6a-413a-9931-d4e1fb64c0a5)
   )
+  (wire (pts (xy 208.28 107.95) (xy 214.63 107.95))
+    (stroke (width 0) (type default))
+    (uuid 5f6f92c4-bee3-4e71-ad41-1d2ad75c885d)
+  )
   (wire (pts (xy 125.73 166.37) (xy 133.35 166.37))
     (stroke (width 0) (type default))
     (uuid 62a48d5e-cd38-46ba-b90a-dedcd12a754d)
@@ -1557,6 +1641,10 @@
   (wire (pts (xy 134.62 151.13) (xy 147.32 151.13))
     (stroke (width 0) (type default))
     (uuid 6943958c-e723-4620-b026-6162e564df40)
+  )
+  (wire (pts (xy 203.2 30.48) (xy 203.2 34.29))
+    (stroke (width 0) (type default))
+    (uuid 6b545793-ce7d-4def-8af2-432c22d05f2e)
   )
   (wire (pts (xy 137.16 187.96) (xy 149.86 187.96))
     (stroke (width 0) (type default))
@@ -1578,6 +1666,10 @@
     (stroke (width 0) (type default))
     (uuid 736af52f-c6a0-4fb9-89a7-b3f6991dda3f)
   )
+  (wire (pts (xy 203.2 96.52) (xy 203.2 100.33))
+    (stroke (width 0) (type default))
+    (uuid 752f542c-844a-4b78-9d81-ef26643dd103)
+  )
   (wire (pts (xy 90.17 66.04) (xy 90.17 82.55))
     (stroke (width 0) (type default))
     (uuid 7572d89d-68f6-4282-aab3-d272225bc5f2)
@@ -1594,13 +1686,13 @@
     (stroke (width 0) (type default))
     (uuid 817190c3-4579-46c9-89ed-691be8be62a7)
   )
+  (wire (pts (xy 132.08 30.48) (xy 132.08 33.02))
+    (stroke (width 0) (type default))
+    (uuid 841402a3-133c-4116-b012-590e2b2a8b63)
+  )
   (wire (pts (xy 120.65 187.96) (xy 137.16 187.96))
     (stroke (width 0) (type default))
     (uuid 8a6753df-7640-413e-b69f-850fba707b1e)
-  )
-  (wire (pts (xy 121.92 35.56) (xy 116.84 35.56))
-    (stroke (width 0) (type default))
-    (uuid 8b21166c-88b5-4f98-9256-8b9ed2aa0b14)
   )
   (wire (pts (xy 191.77 39.37) (xy 207.01 39.37))
     (stroke (width 0) (type default))
@@ -1662,6 +1754,10 @@
     (stroke (width 0) (type default))
     (uuid bd98fdc8-8bbd-4057-9fd1-b9b8844b90c7)
   )
+  (wire (pts (xy 203.2 96.52) (xy 214.63 96.52))
+    (stroke (width 0) (type default))
+    (uuid bfb164d9-9fb1-4437-acde-dd0adaa1ef11)
+  )
   (wire (pts (xy 93.98 45.72) (xy 99.06 45.72))
     (stroke (width 0) (type default))
     (uuid c232c85d-e1bf-4c12-b735-68a3286322c8)
@@ -1670,9 +1766,9 @@
     (stroke (width 0) (type default))
     (uuid c6754233-8423-4221-8b27-2fda8eb77b50)
   )
-  (wire (pts (xy 132.08 35.56) (xy 132.08 48.26))
+  (wire (pts (xy 109.22 30.48) (xy 132.08 30.48))
     (stroke (width 0) (type default))
-    (uuid ca4fc5fd-a4f9-4291-9004-706050ffbf68)
+    (uuid c88b86d4-54ac-4c5a-898c-62eb5721abb9)
   )
   (wire (pts (xy 191.77 90.17) (xy 191.77 91.44))
     (stroke (width 0) (type default))
@@ -1685,10 +1781,6 @@
   (wire (pts (xy 222.25 71.12) (xy 224.79 71.12))
     (stroke (width 0) (type default))
     (uuid cc5e6490-822e-465c-8f71-ee474c189da3)
-  )
-  (wire (pts (xy 116.84 35.56) (xy 116.84 48.26))
-    (stroke (width 0) (type default))
-    (uuid cefffcaf-2e77-4e93-8f00-9b9a0a6857e5)
   )
   (wire (pts (xy 135.89 166.37) (xy 156.21 166.37))
     (stroke (width 0) (type default))
@@ -1762,13 +1854,13 @@
     (stroke (width 0) (type default))
     (uuid f34cf12b-37d2-4c02-bee4-969fda4973d3)
   )
+  (wire (pts (xy 203.2 107.95) (xy 208.28 107.95))
+    (stroke (width 0) (type default))
+    (uuid f6b4e8aa-7f82-41ba-8010-ab3727dbff84)
+  )
   (wire (pts (xy 195.58 154.94) (xy 195.58 158.75))
     (stroke (width 0) (type default))
     (uuid fb5c0bfe-adfb-47da-808c-c71d65b370f2)
-  )
-  (wire (pts (xy 129.54 35.56) (xy 132.08 35.56))
-    (stroke (width 0) (type default))
-    (uuid fe412463-4634-4f31-ba47-67568783ba98)
   )
   (wire (pts (xy 207.01 34.29) (xy 203.2 34.29))
     (stroke (width 0) (type default))
@@ -1807,7 +1899,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f92dd66-80bd-4fd5-9cb1-2a9851835cd0)
   )
-  (label "OUT'" (at 203.2 100.33 0) (fields_autoplaced)
+  (label "OUT'" (at 132.08 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1fdd9d55-fc16-436b-a335-97b952714868)
   )
@@ -1859,7 +1951,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aa5585ec-5af3-467f-b23d-8057edecb79b)
   )
-  (label "OUT'" (at 132.08 53.34 0) (fields_autoplaced)
+  (label "OUT'" (at 203.2 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bbd4cf37-3623-48ee-9466-dc4d1923765b)
   )
@@ -1905,7 +1997,7 @@
     (property "Value" "IN1" (at 35.56 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Eurorack:Mech-AudioJack-Hole" (at 33.02 172.72 0)
+    (property "Footprint" "Eurorack:Mech-AudioJack-Hole-Input" (at 33.02 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 172.72 0)
@@ -1913,7 +2005,7 @@
     )
     (pin "1" (uuid 0215e4a3-64e7-4f52-a21d-4ec1528e0c36))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H6") (unit 1)
         )
@@ -1938,9 +2030,34 @@
     )
     (pin "1" (uuid 232db8fb-497c-41d6-a272-eade6c62da7e))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 208.28 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0c1f654b-0d09-4dc8-837e-cf9b6a19fead)
+    (property "Reference" "#PWR020" (at 208.28 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 208.28 113.03 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 208.28 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 208.28 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62a630c8-bb1e-4d9b-bc74-6a3a163abcb2))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1963,7 +2080,7 @@
     )
     (pin "1" (uuid 3fe655a6-41b0-4bcc-8665-2b8b5b215171))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR023") (unit 1)
         )
@@ -1988,7 +2105,7 @@
     )
     (pin "1" (uuid a8fa9398-253b-4d4c-81c2-5893d356d436))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#FLG01") (unit 1)
         )
@@ -2013,7 +2130,7 @@
     )
     (pin "1" (uuid 539ca3e7-66d1-4c60-86b4-4469c12d7b4c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR09") (unit 1)
         )
@@ -2038,7 +2155,7 @@
     )
     (pin "1" (uuid 27b8f7c8-77a2-4ad2-ac13-2c71980786ad))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H1") (unit 1)
         )
@@ -2063,7 +2180,7 @@
     )
     (pin "1" (uuid 0ef716e6-9fc8-4bfa-8caf-c6981068dc20))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR01") (unit 1)
         )
@@ -2088,7 +2205,7 @@
     )
     (pin "1" (uuid 6ec9084b-ae02-4844-9add-1dbe82f33566))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR024") (unit 1)
         )
@@ -2113,7 +2230,7 @@
     )
     (pin "1" (uuid 8cdc3b08-fd07-4da0-8568-9dae10931306))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR025") (unit 1)
         )
@@ -2146,7 +2263,7 @@
     (pin "T" (uuid 77e5918a-9827-4956-9a34-caaa75d5f7ee))
     (pin "S" (uuid 8d0dc4cf-27bd-4ddb-96bf-6c0e63d13b10))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J3") (unit 1)
         )
@@ -2190,7 +2307,7 @@
     (pin "9" (uuid 1f2bbfe9-858d-445c-bdcc-080c0381c194))
     (pin "13" (uuid e748624a-5330-4433-9dd7-115151ee42ac))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U1") (unit 1)
         )
@@ -2223,7 +2340,7 @@
     (pin "T" (uuid 32e0459b-d0bb-4534-a510-5fef94bda60b))
     (pin "S" (uuid 542f256f-8bcc-46d8-9e51-a547f92df53e))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J4") (unit 1)
         )
@@ -2249,7 +2366,7 @@
     (pin "2" (uuid 8b6cfbc1-91c3-471c-a747-76cb01c26b4c))
     (pin "1" (uuid 6a376f29-7b94-4944-8817-4b44eeb42b08))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R5") (unit 1)
         )
@@ -2276,7 +2393,7 @@
     (pin "1" (uuid 95d56aa4-041d-455f-90c4-2ad3449dd965))
     (pin "3" (uuid 290e1dcb-a7c9-42e5-959b-b390765d46b9))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "RV4") (unit 1)
         )
@@ -2316,7 +2433,7 @@
     (pin "2" (uuid 75be8956-b2da-43eb-abf1-9894e8b4636e))
     (pin "3" (uuid 083b450c-1bb8-487d-93f9-670412e633a6))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J1") (unit 1)
         )
@@ -2341,7 +2458,7 @@
     )
     (pin "1" (uuid 6df84d0a-c1f7-44a9-8d58-e42222a4e944))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR03") (unit 1)
         )
@@ -2367,7 +2484,7 @@
     (pin "2" (uuid 36e06966-8b67-42ee-8a82-e7fcf9cb9459))
     (pin "1" (uuid 4a5585db-34a6-4db2-94d9-d0c71ccc8cd6))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R23") (unit 1)
         )
@@ -2392,7 +2509,7 @@
     )
     (pin "1" (uuid 2b524bb2-5b29-41e0-80af-b9ebaf27ea83))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR017") (unit 1)
         )
@@ -2417,7 +2534,7 @@
     )
     (pin "1" (uuid 13f943ee-a9a1-4820-a81b-e97a63f4a1d3))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR022") (unit 1)
         )
@@ -2453,7 +2570,7 @@
     (pin "6" (uuid 07901abe-8fd8-4751-bf9c-658fcadb770c))
     (pin "2" (uuid 8516b401-a135-48f6-853c-4daa02fa6528))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "Q1") (unit 1)
         )
@@ -2479,7 +2596,7 @@
     (pin "2" (uuid 2af6de98-c130-4748-b519-1a1de3eae4e1))
     (pin "1" (uuid 620881dd-74b5-40e6-879b-293d271f48f5))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R22") (unit 1)
         )
@@ -2505,7 +2622,7 @@
     (pin "1" (uuid 47f54687-c17c-407b-b263-1be05ad983ed))
     (pin "2" (uuid 448ff893-3299-4f61-89ac-5015fcc09c61))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D3") (unit 1)
         )
@@ -2531,9 +2648,41 @@
     (pin "2" (uuid daad50eb-8b41-4b46-836c-56606874c7e3))
     (pin "1" (uuid 30498dc8-6342-4268-b54a-bd336e8e8777))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D") (at 109.22 34.29 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3f875251-7b85-4721-87b5-9231230f4c02)
+    (property "Reference" "D7" (at 111.76 33.02 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1N4148" (at 111.76 35.56 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 109.22 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 109.22 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 109.22 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 91ee0483-ba21-4907-a4a2-a1e21ab84fda))
+    (pin "1" (uuid 6b36ef3f-957a-4acb-9561-92b2a95352d0))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2556,9 +2705,35 @@
     )
     (pin "1" (uuid 69256c0d-3c60-417d-92ba-ca2e20dde6ce))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 132.08 44.45 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4338fa94-3fdd-4b48-bb33-54c7748eb865)
+    (property "Reference" "R26" (at 134.62 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 134.62 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 133.858 44.45 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 132.08 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid d5271d80-1a0c-4c71-a416-b6b50917cabf))
+    (pin "1" (uuid 6fad9498-89f8-4853-867c-ad076ee591c8))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2582,7 +2757,7 @@
     (pin "2" (uuid c119379f-ae43-4472-a5a2-adf939354d8f))
     (pin "1" (uuid e84b4257-88e3-4407-bb42-367b921ce11c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R7") (unit 1)
         )
@@ -2608,7 +2783,7 @@
     (pin "2" (uuid 921e95a6-4938-430a-af28-afa76d4ec1ec))
     (pin "1" (uuid 6dc3e19c-9192-4655-b2ff-e57593cd02f5))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R19") (unit 1)
         )
@@ -2644,9 +2819,35 @@
     (pin "6" (uuid 07901abe-8fd8-4751-bf9c-658fcadb770d))
     (pin "2" (uuid 8516b401-a135-48f6-853c-4daa02fa6529))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "Q1") (unit 2)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 109.22 41.91 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4d914251-f064-4052-b92a-5478eeb9d487)
+    (property "Reference" "R25" (at 111.76 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10K" (at 111.76 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 110.998 41.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 109.22 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 50072b49-789a-48a7-a767-985d397787d2))
+    (pin "1" (uuid a9924d91-3cc5-49de-a85d-ae326a637c98))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2670,7 +2871,7 @@
     (pin "2" (uuid bf727421-e644-49bf-9f15-b56904679bd9))
     (pin "1" (uuid 2017267f-8a2d-435b-9610-828da7b0969f))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R3") (unit 1)
         )
@@ -2695,7 +2896,7 @@
     )
     (pin "1" (uuid b70204c6-1dd8-4454-9914-82ec44d0e546))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H10") (unit 1)
         )
@@ -2739,7 +2940,7 @@
     (pin "9" (uuid 1f2bbfe9-858d-445c-bdcc-080c0381c195))
     (pin "13" (uuid e748624a-5330-4433-9dd7-115151ee42ad))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U1") (unit 3)
         )
@@ -2764,7 +2965,7 @@
     )
     (pin "1" (uuid 9622ba0a-2fb5-4a5e-b049-578a408634f8))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR04") (unit 1)
         )
@@ -2789,7 +2990,7 @@
     )
     (pin "1" (uuid fbaefa68-b36d-480c-8af4-349772771527))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H15") (unit 1)
         )
@@ -2815,7 +3016,7 @@
     (pin "1" (uuid d9efe1dc-18fa-454c-9c74-7ff544e6adce))
     (pin "2" (uuid 8052c134-766e-4b46-a73f-4d1bc00f0b18))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D5") (unit 1)
         )
@@ -2840,7 +3041,7 @@
     )
     (pin "1" (uuid 838cb2cc-471c-4685-a2a0-4679660f591c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H9") (unit 1)
         )
@@ -2865,9 +3066,35 @@
     )
     (pin "1" (uuid a6bd88dd-c98b-4a1e-8ad4-aed4e321281c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 214.63 104.14 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6349068c-8814-4d48-accd-1ade79b3a6f6)
+    (property "Reference" "R24" (at 217.17 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100K" (at 217.17 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 216.408 104.14 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 214.63 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 3ff234a0-4a87-4748-8801-b7ca1b0d98c5))
+    (pin "1" (uuid ade83905-3204-4f6d-a654-a007d0d29e5b))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2901,9 +3128,41 @@
     (pin "2" (uuid b7483f1a-f06d-4d89-ab1c-5c0d00ae833b))
     (pin "4" (uuid d89f3f82-b61f-4e25-8b89-58584ebd6c6e))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "Q2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D") (at 132.08 36.83 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6785d5fe-8127-491c-9031-99e928c0f7ae)
+    (property "Reference" "D8" (at 134.62 35.56 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1N4148" (at 134.62 38.1 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 132.08 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 132.08 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "D" (at 132.08 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 132.08 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "2" (uuid 717b7b86-e867-4dfc-b72f-8f65131860cc))
+    (pin "1" (uuid b7b84716-3c30-4418-ac6e-cd8f667465b4))
+    (instances
+      (project "mix"
+        (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2927,7 +3186,7 @@
     (pin "1" (uuid 06746a9e-f177-414e-a109-d3c8fd7ccc35))
     (pin "2" (uuid 019a1fc1-d238-44c2-987e-182c6ca89293))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R13") (unit 1)
         )
@@ -2952,7 +3211,7 @@
     )
     (pin "1" (uuid a52be5f2-4c47-4789-bec7-44c19faaf0ca))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H16") (unit 1)
         )
@@ -2983,7 +3242,7 @@
     )
     (pin "1" (uuid ea9d07f6-bcfb-475e-a298-58e87730c57c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H17") (unit 1)
         )
@@ -3000,7 +3259,7 @@
     (property "Value" "IN3" (at 35.56 187.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Eurorack:Mech-AudioJack-Hole" (at 33.02 187.96 0)
+    (property "Footprint" "Eurorack:Mech-AudioJack-Hole-Input" (at 33.02 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 187.96 0)
@@ -3008,7 +3267,7 @@
     )
     (pin "1" (uuid 162913bd-48f6-4a67-b244-de5cb34eeb87))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H8") (unit 1)
         )
@@ -3033,7 +3292,7 @@
     )
     (pin "1" (uuid ef9e1ba8-1244-47fd-9fc0-5ef903220fd9))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR016") (unit 1)
         )
@@ -3059,7 +3318,7 @@
     (pin "1" (uuid 529d6a0d-b20b-42e7-8d54-72d6ef91d604))
     (pin "2" (uuid f76e6084-61c8-4124-8d17-583941a114a0))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R14") (unit 1)
         )
@@ -3084,7 +3343,7 @@
     )
     (pin "1" (uuid c23abbf0-80e4-4776-a1b6-9feeea8a4b4e))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#FLG02") (unit 1)
         )
@@ -3109,7 +3368,7 @@
     )
     (pin "1" (uuid c36d5552-dbc1-4df0-a4df-b1419d873c47))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR027") (unit 1)
         )
@@ -3134,7 +3393,7 @@
     )
     (pin "1" (uuid dfefecab-f7b2-4b87-a10b-bb0465419634))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR012") (unit 1)
         )
@@ -3167,7 +3426,7 @@
     (pin "3" (uuid 8dc47828-dbf1-45f0-8622-0fc621a68a31))
     (pin "1" (uuid 10bbd14f-9897-4ded-9f83-8706b17e5f76))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D1") (unit 1)
         )
@@ -3199,7 +3458,7 @@
     (pin "S" (uuid 97272228-c223-431b-854d-8286d82a0da7))
     (pin "T" (uuid 44db339b-cc96-4eb1-9ed9-c8af40938836))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J6") (unit 1)
         )
@@ -3232,7 +3491,7 @@
     (pin "T" (uuid 3d467733-f070-4e42-b977-bbb796ed6005))
     (pin "S" (uuid 57a7efd4-4d97-4685-96fb-6e462070a683))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J2") (unit 1)
         )
@@ -3258,7 +3517,7 @@
     (pin "2" (uuid 5180f69e-b714-4ac4-8979-4d9e791bd850))
     (pin "1" (uuid 2f4cbd18-95a8-4bba-a467-5abc19d8e1e8))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R21") (unit 1)
         )
@@ -3284,7 +3543,7 @@
     (pin "2" (uuid aaa5f3df-60e6-4583-ab41-09b566c6a598))
     (pin "1" (uuid aee1ea92-c0b5-481c-9b03-9214fab327bc))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "C1") (unit 1)
         )
@@ -3311,7 +3570,7 @@
     (pin "1" (uuid 0ae87d1a-c62b-4474-97a0-3358dba51104))
     (pin "3" (uuid 387277fc-9f72-41b1-b348-edbe0737b98f))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "RV3") (unit 1)
         )
@@ -3337,7 +3596,7 @@
     (pin "2" (uuid 32e04ac1-1517-4148-911b-a5dfa05a86b0))
     (pin "1" (uuid a1814981-e8d0-449a-a121-91b916b88bac))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R18") (unit 1)
         )
@@ -3375,7 +3634,7 @@
     (pin "2" (uuid ce8b4441-7319-44a4-907a-bac499df7e0b))
     (pin "3" (uuid da601cc5-0b7f-4669-830c-057e2c3f210f))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U2") (unit 1)
         )
@@ -3400,7 +3659,7 @@
     )
     (pin "1" (uuid 9027dfda-c688-42a1-895c-fbf6bf8e6652))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR021") (unit 1)
         )
@@ -3433,7 +3692,7 @@
     (pin "3" (uuid 7db74ac6-bb10-46d8-ba45-1b5935c998ac))
     (pin "1" (uuid 4549279a-1167-4506-9f82-6107317fb301))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D2") (unit 1)
         )
@@ -3458,7 +3717,7 @@
     )
     (pin "1" (uuid ce147f0c-6f28-4e58-9ad8-7a2d62d4c1b8))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#FLG03") (unit 1)
         )
@@ -3466,25 +3725,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 125.73 35.56 270) (unit 1)
+  (symbol (lib_id "Device:C") (at 203.2 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 921f0356-b2f4-4102-b352-6c0b14122cfc)
-    (property "Reference" "C5" (at 125.73 27.94 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "C5" (at 207.01 102.87 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "15p" (at 125.73 30.48 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "100n" (at 207.01 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 121.92 36.5252 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 204.1652 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 35.56 0)
+    (property "Datasheet" "~" (at 203.2 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 23d3967b-30ba-45d6-8b20-d2a34d794a8e))
     (pin "2" (uuid 00a552a9-06c0-416a-8d4b-6afefecb2c61))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "C5") (unit 1)
         )
@@ -3511,7 +3770,7 @@
     (pin "1" (uuid 4e98b40c-91dc-48a9-a93b-9799a23bbe6c))
     (pin "3" (uuid fe767639-b7fe-4820-be16-8afab1082672))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "RV2") (unit 1)
         )
@@ -3537,7 +3796,7 @@
     (pin "2" (uuid 200866f4-1029-45a2-aedf-0ddaba1b775b))
     (pin "1" (uuid f35fedc3-a934-4169-993d-914e55185363))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R6") (unit 1)
         )
@@ -3563,7 +3822,7 @@
     (pin "2" (uuid bfcf0130-abd3-47b4-9853-528e7c6daf4b))
     (pin "1" (uuid 21d4bbe9-a89b-4825-954a-f4f661964b8b))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R8") (unit 1)
         )
@@ -3589,7 +3848,7 @@
     (pin "2" (uuid 82680734-726c-47e9-8b72-88de867994be))
     (pin "1" (uuid 5f45973a-3db3-4ccc-a619-637eec35870b))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R20") (unit 1)
         )
@@ -3614,7 +3873,7 @@
     )
     (pin "1" (uuid 4ab9f4b3-cb11-4481-839c-baa6dbfbd1dd))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR026") (unit 1)
         )
@@ -3640,7 +3899,7 @@
     (pin "1" (uuid 4d4e8caf-f5cb-41f7-9c64-ccb0f402ab73))
     (pin "2" (uuid 66f6ff0d-a4a8-434d-9cdd-e1e58e2f5ea6))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D6") (unit 1)
         )
@@ -3666,7 +3925,7 @@
     (pin "2" (uuid b87d784e-42de-444e-b862-6aff19c94c33))
     (pin "1" (uuid a4a6e512-b43f-45e7-b7bb-514799e7ae1c))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "C2") (unit 1)
         )
@@ -3692,7 +3951,7 @@
     (pin "1" (uuid a940a3e3-3f53-401a-b764-e5cd60028899))
     (pin "2" (uuid cd292f4e-e5fb-4ae6-93fb-a375d15612e9))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R15") (unit 1)
         )
@@ -3718,7 +3977,7 @@
     (pin "2" (uuid 620a5641-f1cb-42b7-bea0-5b8cea16c98f))
     (pin "1" (uuid d21505ce-866b-41fe-b431-5d2c1baacd0e))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R16") (unit 1)
         )
@@ -3743,7 +4002,7 @@
     )
     (pin "1" (uuid 4770d207-f891-41b7-afa0-3b6fc4809acc))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H2") (unit 1)
         )
@@ -3787,7 +4046,7 @@
     (pin "9" (uuid 1f2bbfe9-858d-445c-bdcc-080c0381c196))
     (pin "13" (uuid e748624a-5330-4433-9dd7-115151ee42ae))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U1") (unit 2)
         )
@@ -3812,7 +4071,7 @@
     )
     (pin "1" (uuid 4213f367-d0dc-4d7f-ac35-2830985118d9))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H12") (unit 1)
         )
@@ -3837,7 +4096,7 @@
     )
     (pin "1" (uuid 037a4b46-df0c-43ac-8618-84702d909505))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR08") (unit 1)
         )
@@ -3863,7 +4122,7 @@
     (pin "2" (uuid 5e0604c6-ff4b-4910-aa33-4a35c55fa429))
     (pin "1" (uuid b80410dc-f4df-4a3d-9e14-db15968dbbea))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R4") (unit 1)
         )
@@ -3888,7 +4147,7 @@
     )
     (pin "1" (uuid 1967dcd2-9b8f-4e14-ba36-37e991930a27))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR06") (unit 1)
         )
@@ -3913,7 +4172,7 @@
     )
     (pin "1" (uuid f0dee73e-b0ce-4e45-9198-6e03de6cacbb))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR029") (unit 1)
         )
@@ -3940,7 +4199,7 @@
     (pin "1" (uuid 14c7aa7d-6bbb-497c-93c2-d9b32f9a866a))
     (pin "3" (uuid b42704ba-832a-4682-9fa3-aa1a99936b49))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "RV1") (unit 1)
         )
@@ -3966,7 +4225,7 @@
     (pin "2" (uuid 3bd6bc30-e7c2-46a5-b12f-cfb4da5fc8d8))
     (pin "1" (uuid 6cc9625d-f5b2-4e1c-98b8-1ebd4703727b))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R10") (unit 1)
         )
@@ -3992,7 +4251,7 @@
     (pin "1" (uuid 04e75cb0-86a3-4a0e-8634-75cbc866f154))
     (pin "2" (uuid 356e9eaf-8509-402f-a34e-5fa98f7dcd75))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "C4") (unit 1)
         )
@@ -4017,7 +4276,7 @@
     )
     (pin "1" (uuid fdaccda5-ef53-4b2c-932d-f8cfecdd3cc6))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H14") (unit 1)
         )
@@ -4043,7 +4302,7 @@
     (pin "1" (uuid 000a8070-8387-45f5-96f0-e305bf3c48c6))
     (pin "2" (uuid 76a00a61-9df3-4e48-b1ac-7f5175a50bc8))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R2") (unit 1)
         )
@@ -4087,7 +4346,7 @@
     (pin "9" (uuid 1f2bbfe9-858d-445c-bdcc-080c0381c197))
     (pin "13" (uuid e748624a-5330-4433-9dd7-115151ee42af))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U1") (unit 5)
         )
@@ -4104,7 +4363,7 @@
     (property "Value" "IN0" (at 35.56 165.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Eurorack:Mech-AudioJack-Hole" (at 33.02 165.1 0)
+    (property "Footprint" "Eurorack:Mech-AudioJack-Hole-Input" (at 33.02 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 165.1 0)
@@ -4112,7 +4371,7 @@
     )
     (pin "1" (uuid 8c93bcfd-a1eb-4288-a63d-72440ef08503))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H5") (unit 1)
         )
@@ -4129,7 +4388,7 @@
     (property "Value" "IN2" (at 35.56 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Eurorack:Mech-AudioJack-Hole" (at 33.02 180.34 0)
+    (property "Footprint" "Eurorack:Mech-AudioJack-Hole-Input" (at 33.02 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 180.34 0)
@@ -4137,7 +4396,7 @@
     )
     (pin "1" (uuid 6465490e-4400-4a8a-bc68-c539e0505fed))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H7") (unit 1)
         )
@@ -4162,7 +4421,7 @@
     )
     (pin "1" (uuid c851ffb3-8621-42f5-983b-7ac3786b1a81))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR07") (unit 1)
         )
@@ -4187,7 +4446,7 @@
     )
     (pin "1" (uuid 97ef10cf-892d-4b7d-a80d-0d20ec4fbbce))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR014") (unit 1)
         )
@@ -4212,7 +4471,7 @@
     )
     (pin "1" (uuid 788c8933-7c91-4515-9b8e-c19f2f9f5cdb))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR018") (unit 1)
         )
@@ -4238,7 +4497,7 @@
     (pin "1" (uuid 02cdcdd1-0c2a-423a-af11-d09f7e741b28))
     (pin "2" (uuid e6a01ce7-26eb-4043-9b09-5820db0edff3))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R11") (unit 1)
         )
@@ -4263,7 +4522,7 @@
     )
     (pin "1" (uuid 6fbb214e-b591-4c8d-afdd-addb85e5cc69))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H11") (unit 1)
         )
@@ -4301,7 +4560,7 @@
     (pin "2" (uuid ce8b4441-7319-44a4-907a-bac499df7e0c))
     (pin "3" (uuid da601cc5-0b7f-4669-830c-057e2c3f2110))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U2") (unit 3)
         )
@@ -4334,7 +4593,7 @@
     (pin "T" (uuid 45e82118-75d3-440e-940b-2187d4d50849))
     (pin "S" (uuid ac9524ec-fd7b-46b6-8daf-972c7a7a8cae))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "J5") (unit 1)
         )
@@ -4359,7 +4618,7 @@
     )
     (pin "1" (uuid d72ce4e7-caf7-4c27-8699-86f0855d1a9d))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR010") (unit 1)
         )
@@ -4395,7 +4654,7 @@
     (pin "2" (uuid b7483f1a-f06d-4d89-ab1c-5c0d00ae833c))
     (pin "4" (uuid d89f3f82-b61f-4e25-8b89-58584ebd6c6f))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "Q2") (unit 2)
         )
@@ -4420,7 +4679,7 @@
     )
     (pin "1" (uuid 89c60b55-af1f-449e-8485-f91230f024db))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR028") (unit 1)
         )
@@ -4445,7 +4704,7 @@
     )
     (pin "1" (uuid 8b1f4b17-c097-4c78-a86b-a27f1bc48107))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H13") (unit 1)
         )
@@ -4471,7 +4730,7 @@
     (pin "1" (uuid af305e57-fa64-47a4-b4b1-d0590f53f4f1))
     (pin "2" (uuid 357fad65-67d8-4c5a-a2b5-2e648bc25b9f))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R12") (unit 1)
         )
@@ -4496,7 +4755,7 @@
     )
     (pin "1" (uuid 5d477c7a-2866-42ce-b60a-e8a7f0aef663))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR013") (unit 1)
         )
@@ -4521,7 +4780,7 @@
     )
     (pin "1" (uuid da1eff34-bc55-4390-a8a4-4535b761e34a))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR019") (unit 1)
         )
@@ -4546,7 +4805,7 @@
     )
     (pin "1" (uuid 724f2e6d-ef91-41dd-9659-25d9c45c32af))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR011") (unit 1)
         )
@@ -4572,7 +4831,7 @@
     (pin "1" (uuid baa38a85-2144-46d5-b322-db8e5b0daf87))
     (pin "2" (uuid 4fbcee63-9560-4391-a709-23e3b4e03f32))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R1") (unit 1)
         )
@@ -4598,7 +4857,7 @@
     (pin "1" (uuid 62a9e3ff-eb9e-4a9b-9ce8-871a1d1a3f34))
     (pin "2" (uuid f5620336-0592-4bd9-855a-2527681a1735))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "D4") (unit 1)
         )
@@ -4642,7 +4901,7 @@
     (pin "9" (uuid 1f2bbfe9-858d-445c-bdcc-080c0381c198))
     (pin "13" (uuid e748624a-5330-4433-9dd7-115151ee42b0))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U1") (unit 4)
         )
@@ -4668,7 +4927,7 @@
     (pin "2" (uuid c1065840-8326-43c4-a2cc-773b6a6ba1c8))
     (pin "1" (uuid 4a7e6099-47b1-4699-89a7-d8327c6fbf58))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "R17") (unit 1)
         )
@@ -4706,7 +4965,7 @@
     (pin "2" (uuid ce8b4441-7319-44a4-907a-bac499df7e0d))
     (pin "3" (uuid da601cc5-0b7f-4669-830c-057e2c3f2111))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "U2") (unit 2)
         )
@@ -4732,7 +4991,7 @@
     (pin "1" (uuid 9ef4ea24-be64-45c5-942b-75be1174ef6f))
     (pin "2" (uuid 8814e4cc-940a-4028-abe5-1e72e2ce41cd))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "C3") (unit 1)
         )
@@ -4757,7 +5016,7 @@
     )
     (pin "1" (uuid fa8f2735-25ce-470d-a1dd-3969d3d51f50))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "H4") (unit 1)
         )
@@ -4782,7 +5041,7 @@
     )
     (pin "1" (uuid c8586a39-3b1a-4470-ad68-098aec91a517))
     (instances
-      (project "mixout"
+      (project "mix"
         (path "/89b9f0b5-2517-4496-9db9-db1fb98d3613"
           (reference "#PWR05") (unit 1)
         )
